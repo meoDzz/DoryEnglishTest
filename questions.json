@@ -1,0 +1,510 @@
+{
+  "questions":[
+    {
+      "id": 1,
+      "question": "Choose the correct answer",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 1.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["Hello!", "How are you", "I'm Linda"],
+      "answer": "Hello!"
+},
+{
+      "id": 2,
+      "question": "Choose the correct answer",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 2.png ",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["Hello!", "How are you", "Thank you"],
+      "answer": "Thank you"
+     },
+{
+      "id": 3,
+      "question": "Choose the correct answer",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 3.png ",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["Hello!", "Nice", "Thank you"],
+      "answer": "Nice"
+},
+{
+      "id": 4,
+      "question": "Look and choose the correct answer",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 4.png ",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["fish", "parrot", "rabbit"],
+      "answer": "rabbit"
+},
+{
+      "id": 5,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["how", "Peter", "Tony"],
+      "answer": "how"
+},
+
+{
+      "id": 6,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["pink", "yellow", "ten"],
+      "answer": "ten"
+},
+
+{
+      "id": 7,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["cat", "meat", "dog", "rabbit"],
+      "answer": "meat"
+},
+
+{
+      "id": 8,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["school", "pencil case", "notebook", "schoolbag"],
+      "answer": "school"
+},
+
+{
+      "id": 9,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["room", "bedroom", "bathroom", "kitchen"],
+      "answer": "room"
+},
+
+{
+      "id": 10,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["blue", "red", "five"],
+      "answer": "five"
+},
+
+
+
+
+
+{
+      "id": 11,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["hello", "goodnight", "hi"],
+      "answer": "goodight"
+},
+
+{
+      "id": 12,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["how", "Mary", "what"],
+      "answer": "Mary"
+},
+
+{
+      "id": 13,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["ten", "green", "nine"],
+      "answer": "green"
+},
+{
+      "id": 14,
+      "question": "Choose the missing letter: h_llo",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["i", "e", "o"],
+      "answer": "e"
+},
+
+{
+      "id": 15,
+      "question": "Choose the missing letter: goo_bye",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["d", "e", "f"],
+      "answer": "d"
+},
+
+
+
+
+
+
+{
+      "id": 16,
+      "question": " Choose the missing letter: j_ice ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 16.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["i", "u", "e"],
+      "answer": "u"
+},
+{
+      "id": 17,
+      "question": "Choose the missing letter: f_ne",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["y", "i", "u"],
+      "answer": "i"
+},
+{
+      "id": 18,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["desk", "table", "chair", "bedroom"],
+      "answer": "bedroom"
+},
+{
+      "id": 19,
+      "question": "Choose the missing letter: ho_",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["y", "a", "w"],
+      "answer": "w"
+},
+{
+      "id": 20,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 20.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["water", "bread", "chicken"],
+      "answer": "bread"
+},
+
+
+
+
+
+
+
+
+
+{
+      "id": 21,
+      "question": "Choose the missing letter: thr_e",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["e", "r", "b"],
+      "answer": "e"
+},
+
+{
+      "id": 22,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 22.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["eye", "nose", "ear"],
+      "answer": "ear"
+},
+
+{
+      "id": 23,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 23.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["eye", "mouth", "ear"],
+      "answer": "eye"
+},
+{
+      "id": 24,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 24.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["teeth", "toe", "touch"],
+      "answer": "teeth"
+},
+{
+      "id": 25,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 25.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["shoulder", "foot", "finger"],
+      "answer": "ear"
+},
+
+
+
+
+
+
+
+{
+      "id": 26,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 26.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["foot", "hand", "knee"],
+      "answer": "knee"
+},
+{
+      "id": 27,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 27.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["nose", "mouth", "arm"],
+      "answer": "arm"
+},
+{	
+      "id": 28,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 28.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["schoolbag", "rubber", "boar"],
+      "answer": "board"
+},
+{
+      "id": 29,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 29.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["schoolbag", "rubber", "board"],
+      "answer": "rubber"
+},
+{
+      "id": 30,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 30.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["book", "pencil", "ruler"],
+      "answer": "pencil"
+},
+{
+      "id": 31,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 31.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["sharpener", "book", "ruler"],
+      "answer": "sharpener"
+},
+{
+      "id": 32,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 32.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["chair", "computer", "pen"],
+      "answer": "computer"
+},
+{
+      "id": 33,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 33.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["pencil case", "computer", "glue"],
+      "answer": "pencil case"
+},
+{
+      "id": 34,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 34.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["listening to music", "playing basketball", "drawing a picture"],
+      "answer": "playing basketball"
+},
+{
+      "id": 35,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 35.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["singing", "dancing", "writing"],
+      "answer": "writing"
+},
+{
+      "id": 36,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 36.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["listening to music", "drawing a picture", "playing basketball"],
+      "answer": "listening to music"
+},
+
+
+{
+      "id": 37,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 37.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["watching TV", "reading", "playing basketball"],
+      "answer": "watching TV"
+},
+{
+      "id": 38,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 38.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["listening to music", "drawing a picture", "playing basketball"],
+      "answer": "drawing a picture"
+},
+{
+      "id": 39,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["like", "cat", "dog", "goldfish"],
+      "answer": "like"
+},
+
+{
+      "id": 40,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 40.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["rabbit", "plane", "kite"],
+      "answer": "kite"
+},
+{
+      "id": 41,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 41.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["pupil", "teacher", "farmer"],
+      "answer": "farmer"
+},
+
+{
+      "id": 42,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 42.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["doctors", "pupils", "teachers"],
+      "answer": "pupils"
+},
+{
+      "id": 43,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 43.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["nurse", "worker", "cook"],
+      "answer": "worker"
+},
+{
+      "id": 44,
+      "question": "Choose the odd one out",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["worker", "grandmother", "cook", "nurse"],
+      "answer": "grandmother"
+},
+
+{
+      "id": 45,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 45.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["flying a kite", "painting", "skipping"],
+      "answer": "painting"
+},
+{
+      "id": 46,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 46.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["flying a kite", "painting", "playing badminton"],
+      "answer": "playing badminton"
+},
+
+{
+      "id": 47,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 47.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["playing soccer", "painting", "skating"],
+      "answer": "painting"
+},
+{
+      "id": 48,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 48.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["playing soccer", "playing basketball", "skating"],
+      "answer": " playing basketball "
+},
+{
+      "id": 49,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 49.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["fish", "chicken", "meat"],
+      "answer": " meat "
+},
+{
+      "id": 50,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 50.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["water", "milk", "juice"],
+      "answer": " milk "
+},
+{
+      "id": 51,
+      "question": " Look and choose the correct answer ",
+      "image": "Database/pic-tranh/pictranhv1/vong 1_question 51.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["beans", "chicken", "rice"],
+      "answer": " beans "
+}
+
+  ]
+}
+
+
+

@@ -1,0 +1,113 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Choose the correct answer",
+      "image": "Database/pic/vong1_pic_ques1.png",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["Hello!", "How are you", "I'm Linda"],
+      "answer": "Hello!"
+    },
+    {
+      "id": 2,
+      "question": "Listen and answer: What animal is mentioned?",
+      "questionType": "multiple_choice",
+      "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "limitListen": true,
+      "options": ["Cat", "Dog", "Elephant", "Lion"],
+      "answer": "Elephant"
+    },
+    {
+      "id": 3,
+      "question": "Choose the picture:",
+      "questionType": "multiple_choice",
+      "optionType": "image",
+      "audio": "Database/lis-fileNghe/computerRoom.mp3",
+      "limitListen": true,
+      "options": [
+        "Database/pic/vong2_pic_ques1_A.png",
+        "Database/pic/vong2_pic_ques1_B.png"
+      ],
+      "answer": "Database/pic/vong2_pic_ques1_A.png"
+    },
+    {
+      "id": 4,
+      "question": "Listen and complete the sentence:",
+      "questionType": "fill_blank",
+      "audio": "",
+      "sentence": "Nice _ _ meet you.",
+      "answer": "to"
+    },
+    {
+      "id": 5,
+      "question": "Sắp xếp thứ tự các bức tranh theo câu chuyện (Điền 1, 2, 3, 4):",
+      "questionType": "arrange_images",
+      "items": [
+        { "id": "A", "image": "https://via.placeholder.com/150?text=A" },
+        { "id": "B", "image": "https://via.placeholder.com/150?text=B" },
+        { "id": "C", "image": "https://via.placeholder.com/150?text=C" },
+        { "id": "D", "image": "https://via.placeholder.com/150?text=D" }
+      ],
+      "answer": "A-3, B-1, C-4, D-2"
+    },
+    {
+      "id": 6,
+      "question": "Sắp xếp từ thành câu hoàn chỉnh:",
+      "questionType": "rearrange_words",
+      "words": ["student.", "a", "I", "am", "good"],
+      "answer": "I am a good student."
+    },
+
+     {
+      "id": 7,
+      "question": "Listen and complete the sentence:",
+      "questionType": "fill_blank",
+      "image": "Database/pic/vong1_pic_ques1.png",
+      "audio": "Database/lis-fileNghe/52.HowoldisheHe's12.mp3",
+      "sentence": "",
+      "answer": "y"
+    },
+  {
+      "id": 8,
+      "question": "Listen and complete the sentence:",
+      "questionType": "fill_blank",
+      "image": "Database/pic/vong1_pic_ques1.png",
+      "audio": "Database/lis-fileNghe/52.HowoldisheHe's12.mp3",
+      "sentence": "What would you like to drink? – I’d like some ………..",
+      "answer": "water"
+    },
+    {
+      "id": 9,
+      "question": "I like bears ____ they're very cute.",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["so", "but", "not", "because"],
+      "answer": "because"
+    },
+
+    {
+      "id": 10,
+      "question": "copy nội dung các câu hỏi đã cho, tùy từng câu hỏi mà có các kiểu nhập khác",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["so", "but", "not", "because"],
+      "answer": "because"
+    },
+
+    {
+      "id": 11,
+      "question": "Cái nào không có thì để trống",
+      "image": "",
+      "questionType": "multiple_choice",
+      "optionType": "text",
+      "options": ["so", "but", "not", "because"],
+      "answer": "because"
+    }
+  ]
+}
+
+
+
