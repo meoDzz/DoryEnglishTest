@@ -81,12 +81,28 @@ button:disabled { background-color: #ccc; cursor: not-allowed; }
 
 /* Thêm style cho tiêu đề từng vòng phân cách */
 .round-divider {
-    background-color: #e9ecef;
+    background-color: #8ec1f3;
     color: #495057;
     padding: 10px;
     margin: 20px 0 10px 0;
     font-weight: bold;
     text-transform: uppercase;
-    border-left: 5px solid #007bff;
+    border-left: 5px solid #ec8927;
     border-radius: 4px;
+}
+
+/* --- STYLE CHO LOGO TRUNG TÂM --- */
+.logo-header {
+    display: flex;
+    justify-content: center; /* Căn giữa 2 logo */
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa 2 logo */
+    margin-bottom: 20px; /* Khoảng cách từ logo xuống tiêu đề */
+}
+
+.academy-logo {
+    max-height: 200px; /* Chiều cao tối đa, tránh logo quá to */
+    max-width: 45%;   /* Đảm bảo 2 logo không bị tràn ra ngoài trên điện thoại */
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh không bị méo */
+    display: block;
 }
