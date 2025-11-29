@@ -587,151 +587,203 @@ async function startQuiz() {
     }
 }
 
-// --- 2. HIỂN THỊ CÂU HỎI (CÓ ĐẢO ĐÁP ÁN) ---
 function renderQuestions() {
-    questionsWrapper.innerHTML = "";
+    // Hàm này bây giờ chỉ đóng vai trò khởi tạo
+    currentIndex = 0;
+    renderCurrentQuestion();
 
-    currentQuestions.forEach((q, index) => {
-        const idx = index + 1;
-
-        // -- MEDIA (Ảnh/Audio) --
-        let mediaHTML = "";
-        if (q.image) mediaHTML += `<img src="${q.image}" class="q-img">`;
-        if (q.audio) {
-            // Thay vì tạo thẻ <audio>, ta tạo nút Button gọi hàm playAudio
-            // isLimited = true nếu q.limitListen là true
-            let isLimited = q.limitListen ? "true" : "false";
-            let limitText = q.limitListen ? `<span style="color:red; font-size:0.8em; margin-left:5px">(Nghe 1 lần)</span>` : "";
-
-            mediaHTML += `
-                <div class="audio-box">
-                    <button class="audio-btn" onclick="playGlobalAudio('${q.audio}', this, ${isLimited})">
-                        🔊 Bấm để nghe
-                    </button>
-                    ${limitText}
-                </div>`;
+    // Gán sự kiện cho các nút
+    document.getElementById('next-btn').onclick = handleNext;
+    document.getElementById('early-submit-btn').onclick = () => {
+        if (confirm("Bạn có chắc muốn nộp bài luôn không?")) {
+            saveCurrentAnswer(); // Lưu nốt câu đang làm dở
+            submitQuiz(false);
         }
-
-        let answerHTML = "";
-
-        // -- XỬ LÝ TỪNG LOẠI CÂU HỎI --
-
-        // A. Điền từ
-        if (q.questionType === "fill_blank") {
-            answerHTML = `<p style="font-style:italic;">${q.sentence}</p><input type="text" class="fill-input" name="q-${idx}" autocomplete="off">`;
-        }
-        // B. Sắp xếp ảnh (ĐẢO THỨ TỰ TRANH HIỂN THỊ)
-        else if (q.questionType === "arrange_images") {
-            // Tạo bản sao mảng items và xáo trộn nó để hiển thị ngẫu nhiên
-            let shuffledItems = shuffleArray([...q.items]);
-
-            let itemsHTML = shuffledItems.map(item => `
-                <div class="arrange-item">
-                    <div class="arrange-label">${item.id}</div>
-                    <img src="${item.image}">
-                    <input type="number" class="arrange-input" data-id="${item.id}" name="q-${idx}-arrange" min="1" max="10">
-                </div>`).join('');
-            answerHTML = `<div class="arrange-container">${itemsHTML}</div>`;
-        }
-        // C. Sắp xếp từ (ĐẢO THỨ TỰ TỪ)
-        else if (q.questionType === "rearrange_words") {
-            let shuffledWords = shuffleArray([...q.words]); // Xáo trộn từ
-            let wordsHTML = shuffledWords.map(w => `<button class="word-btn" onclick="moveWord(this, ${idx})">${w}</button>`).join('');
-            answerHTML = `<div class="rearrange-container"><div class="answer-zone" id="zone-${idx}"></div><div class="word-bank" id="bank-${idx}">${wordsHTML}</div></div>`;
-        }
-        // D. Trắc nghiệm (ĐẢO THỨ TỰ ĐÁP ÁN A,B,C,D)
-        else {
-            let isImg = q.optionType === "image";
-            let cls = isImg ? "options-grid" : "options";
-
-            // Tạo bản sao và xáo trộn đáp án
-            let shuffledOptions = shuffleArray([...q.options]);
-
-            let optsHTML = shuffledOptions.map(opt => {
-                let content = isImg ? `<img src="${opt}">` : `<span>${opt}</span>`;
-                let lc = isImg ? "option-image-box" : "";
-                return `<label class="${lc}"><input type="radio" name="q-${idx}" value="${opt}"> ${content}</label>`;
-            }).join('');
-
-            answerHTML = `<div class="${cls}">${optsHTML}</div>`;
-        }
-
-        // Ghép vào HTML
-        questionsWrapper.innerHTML += `
-            <div class="question-block">
-                <p class="question-text">Câu ${idx}: ${q.question}</p>
-                <div class="question-media">${mediaHTML}</div>
-                ${answerHTML}
-            </div>`;
-    });
+    };
 }
 
-// --- 3. NỘP BÀI & CHẤM ĐIỂM ---
+// Hàm hiển thị câu hỏi hiện tại
+function renderCurrentQuestion() {
+    questionsWrapper.innerHTML = "";
+
+    // Kiểm tra nếu đã hết câu hỏi
+    if (currentIndex >= currentQuestions.length) {
+        submitQuiz(false); // Tự động nộp
+        return;
+    }
+
+    const q = currentQuestions[currentIndex];
+    const idx = currentIndex + 1; // Số thứ tự hiển thị (Câu 1, Câu 2...)
+
+    // Xử lý nút Next: Nếu là câu cuối cùng thì đổi tên nút thành "Hoàn thành"
+    const nextBtn = document.getElementById('next-btn');
+    if (currentIndex === currentQuestions.length - 1) {
+        nextBtn.textContent = "Hoàn thành & Nộp bài";
+    } else {
+        nextBtn.textContent = "Câu tiếp theo ➜";
+    }
+
+    // -- TẠO GIAO DIỆN (MEDIA & INPUT) --
+    // (Logic này giữ nguyên như cũ, chỉ thay đổi cách gọi biến)
+
+    let mediaHTML = "";
+    if (q.image) mediaHTML += `<img src="${q.image}" class="q-img">`;
+
+    // Nút Audio (Code sửa lỗi đã làm ở bước trước)
+    if (q.audio) {
+        let isLimited = q.limitListen ? "true" : "false";
+        let limitText = q.limitListen ? `<span style="color:red; font-size:0.8em; margin-left:5px">(Nghe 1 lần)</span>` : "";
+        mediaHTML += `
+            <div class="audio-box">
+                <button class="audio-btn" onclick="playGlobalAudio('${q.audio}', this, ${isLimited})">
+                    🔊 Bấm để nghe
+                </button>
+                ${limitText}
+            </div>`;
+    }
+
+    let answerHTML = "";
+    // Tên input phải là duy nhất cho mỗi câu để không bị trùng cache trình duyệt
+    let inputName = `q_current`;
+
+    if (q.questionType === "fill_blank") {
+        answerHTML = `<p style="font-style:italic;">${q.sentence}</p><input type="text" class="fill-input" id="input-fill" autocomplete="off">`;
+    }
+    else if (q.questionType === "arrange_images") {
+        let shuffledItems = shuffleArray([...q.items]);
+        let itemsHTML = shuffledItems.map(item => `
+            <div class="arrange-item">
+                <div class="arrange-label">${item.id}</div>
+                <img src="${item.image}">
+                <input type="number" class="arrange-input" data-id="${item.id}" min="1" max="10">
+            </div>`).join('');
+        answerHTML = `<div class="arrange-container">${itemsHTML}</div>`;
+    }
+    else if (q.questionType === "rearrange_words") {
+        let shuffledWords = shuffleArray([...q.words]);
+        let wordsHTML = shuffledWords.map(w => `<button class="word-btn" onclick="moveWord(this, '${idx}')">${w}</button>`).join('');
+        // Lưu ý: id zone và bank cần unique một chút để hàm moveWord hoạt động
+        answerHTML = `<div class="rearrange-container"><div class="answer-zone" id="zone-${idx}"></div><div class="word-bank" id="bank-${idx}">${wordsHTML}</div></div>`;
+    }
+    else { // Trắc nghiệm
+        let isImg = q.optionType === "image";
+        let cls = isImg ? "options-grid" : "options";
+        let shuffledOptions = shuffleArray([...q.options]);
+        let optsHTML = shuffledOptions.map(opt => {
+            let content = isImg ? `<img src="${opt}">` : `<span>${opt}</span>`;
+            let lc = isImg ? "option-image-box" : "";
+            // Quan trọng: value="${opt}"
+            return `<label class="${lc}"><input type="radio" name="${inputName}" value="${opt}"> ${content}</label>`;
+        }).join('');
+        answerHTML = `<div class="${cls}">${optsHTML}</div>`;
+    }
+
+    // Render ra màn hình
+    questionsWrapper.innerHTML = `
+        <div class="question-block" style="border:none;">
+            <p class="question-text">Câu ${idx}: ${q.question}</p>
+            <div class="question-media">${mediaHTML}</div>
+            ${answerHTML}
+        </div>`;
+}
+
+// ============================================================
+// PHẦN 3: XỬ LÝ CHUYỂN CÂU & LƯU ĐÁP ÁN
+// ============================================================
+
+// Hàm xử lý khi bấm Next
+function handleNext() {
+    // 1. Lưu đáp án của câu hiện tại vào bộ nhớ
+    saveCurrentAnswer();
+
+    // 2. Dừng audio nếu đang phát
+    if (!globalAudio.paused) globalAudio.pause();
+
+    // 3. Tăng index và hiển thị câu tiếp theo
+    currentIndex++;
+    renderCurrentQuestion();
+}
+
+// Hàm lấy dữ liệu từ màn hình và nhét vào biến currentQuestions
+function saveCurrentAnswer() {
+    if (currentIndex >= currentQuestions.length) return;
+
+    const q = currentQuestions[currentIndex];
+    const idx = currentIndex + 1;
+    let userVal = "Bỏ qua"; // Mặc định nếu không làm
+
+    if (q.questionType === "fill_blank") {
+        let inp = document.getElementById("input-fill");
+        if (inp && inp.value.trim() !== "") userVal = inp.value.trim();
+    }
+    else if (q.questionType === "arrange_images") {
+        let inps = document.querySelectorAll(`.arrange-input`);
+        let arr = [];
+        inps.forEach(i => { if (i.value) arr.push(i.dataset.id + "-" + i.value); });
+        if (arr.length > 0) userVal = arr.join(", ");
+    }
+    else if (q.questionType === "rearrange_words") {
+        let zone = document.getElementById(`zone-${idx}`);
+        if (zone) {
+            let btns = zone.querySelectorAll('.word-btn');
+            let textArr = [];
+            btns.forEach(b => textArr.push(b.textContent));
+            if (textArr.length > 0) userVal = textArr.join(" ");
+        }
+    }
+    else { // Trắc nghiệm
+        let chk = document.querySelector(`input[name="q_current"]:checked`);
+        if (chk) userVal = chk.value;
+    }
+
+    // QUAN TRỌNG: Lưu đáp án vào chính object câu hỏi trong mảng
+    q.userSelectedAnswer = userVal;
+}
+
+// ============================================================
+// PHẦN 4: NỘP BÀI (LOGIC MỚI)
+// ============================================================
+
 async function submitQuiz(isAutoSubmit = false) {
     clearInterval(timerInterval);
-    const btn = document.getElementById('submit-btn');
-    btn.disabled = true;
-    btn.textContent = "Đang chấm điểm...";
 
-    // Tính giờ
+    // Ẩn nút điều hướng để tránh bấm lung tung
+    document.querySelector('.control-bar').style.display = 'none';
+
+    // Vì ta đã lưu đáp án vào q.userSelectedAnswer mỗi khi bấm Next,
+    // nên giờ chỉ cần lôi từ mảng ra chấm thôi.
+
+    // A. Tính giờ (Giữ nguyên)
     const endTime = new Date();
     const diffMs = endTime - startTime;
     const durationStr = msToTime(diffMs);
     const submitDateStr = endTime.toLocaleString('vi-VN');
 
-    // Chấm điểm
+    // B. Chấm điểm
     let score = 0;
-    const totalQuestions = currentQuestions.length;
+    const totalQuestions = currentQuestions.length; // Tổng số câu trong bộ đề (dù làm hay chưa)
     const answers = [];
 
     currentQuestions.forEach((q, index) => {
-        const idx = index + 1;
-        let userVal = "";
+        // Lấy đáp án đã lưu (nếu chưa làm tới thì là undefined)
+        let userVal = q.userSelectedAnswer || "Chưa làm";
 
-        if (q.questionType === "fill_blank") {
-            let inp = document.querySelector(`input[name="q-${idx}"]`);
-            if (inp) userVal = inp.value.trim();
-        }
-        else if (q.questionType === "arrange_images") {
-            let inps = document.querySelectorAll(`input[name="q-${idx}-arrange"]`);
-            let arr = [];
-            inps.forEach(i => { if (i.value) arr.push(i.dataset.id + "-" + i.value); });
-            if (arr.length > 0) userVal = arr.join(", ");
-        }
-        else if (q.questionType === "rearrange_words") {
-            let zone = document.getElementById(`zone-${idx}`);
-            if (zone) {
-                let btns = zone.querySelectorAll('.word-btn');
-                let textArr = [];
-                btns.forEach(b => textArr.push(b.textContent));
-                if (textArr.length > 0) userVal = textArr.join(" ");
-            }
-        }
-        else { // Trắc nghiệm
-            let chk = document.querySelector(`input[name="q-${idx}"]:checked`);
-            if (chk) userVal = chk.value;
-        }
-
-        // SO SÁNH ĐÁP ÁN
         let isCorrect = false;
-        if (userVal && q.answer) {
-            if (compareAnswers(userVal, q.answer)) {
-                score++;
-                isCorrect = true;
-            }
+        if (q.answer && compareAnswers(userVal, q.answer)) {
+            score++;
+            isCorrect = true;
         }
 
         answers.push({
             question: q.question,
-            answer: userVal || "Bỏ trống",
+            answer: userVal,
             correct: q.answer,
             isCorrect: isCorrect
         });
     });
 
+    // C. Gửi đi (Giữ nguyên logic cũ)
     const finalScoreStr = `${score}/${totalQuestions}`;
-
-    // Gửi lên GAS
     const payload = {
         sbd: document.getElementById('student-sbd').value,
         name: document.getElementById('student-name').value,
@@ -743,6 +795,9 @@ async function submitQuiz(isAutoSubmit = false) {
         duration: durationStr
     };
 
+    // UI Nộp bài
+    loginMessage.textContent = "Đang nộp bài..."; // Tận dụng thẻ p thông báo
+    // (Phần fetch gửi lên GAS giữ nguyên như cũ)
     try {
         const req = await fetch(GAS_URL, {
             method: 'POST',
@@ -766,7 +821,6 @@ async function submitQuiz(isAutoSubmit = false) {
         }
     } catch (e) {
         alert("Lỗi mạng (Đã lưu điểm tạm thời): " + finalScoreStr);
-        btn.disabled = false;
     }
 }
 
