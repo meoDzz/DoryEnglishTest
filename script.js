@@ -809,7 +809,7 @@ async function submitQuiz(isAutoSubmit = false) {
         resultContainer.classList.remove('hidden');
 
         if (res.success) {
-            resultMessage.textContent = `🎉 Điểm: ${finalScoreStr}`;
+            resultMessage.textContent = `🎉 Điểm: ${score}`;
             resultDetail.innerHTML = `
                 <p>Thời gian: <strong>${durationStr}</strong></p>
                 <p>Ngày nộp: ${submitDateStr}</p>
