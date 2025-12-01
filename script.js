@@ -13,7 +13,7 @@ const resultDetail = document.getElementById('result-detail');
 
 let currentQuestions = [];
 let timerInterval;
-const TOTAL_TIME = 30 * 60; // 15 phút
+const TOTAL_TIME = 300 * 60; // 15 phút
 let startTime;
 
 const globalAudio = new Audio();
