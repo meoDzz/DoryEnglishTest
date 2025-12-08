@@ -3,12 +3,12 @@
             {
                   "id": 1,
                   "question": "Choose the correct answer",
-                  "image": "Databasenew/tranhv1/vong1cau1.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 1.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
                         "Hello!",
-                        "How are you?",
+                        "How are you",
                         "I'm Linda"
                   ],
                   "answer": "Hello!"
@@ -16,12 +16,12 @@
             {
                   "id": 2,
                   "question": "Choose the correct answer",
-                  "image": "Databasenew/tranhv1/vong1cau2.png ",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 2.png ",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
                         "Hello!",
-                        "How are you?",
+                        "How are you",
                         "Thank you"
                   ],
                   "answer": "Thank you"
@@ -29,20 +29,20 @@
             {
                   "id": 3,
                   "question": "Choose the correct answer",
-                  "image": "Databasenew/tranhv1/vong1cau3.png ",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 3.png ",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
                         "Hello!",
-                        "Love",
-                        "Hi!"
+                        "Nice",
+                        "Thank you"
                   ],
-                  "answer": "Love"
+                  "answer": "Nice"
             },
             {
                   "id": 4,
                   "question": "Look and choose the correct answer",
-                  "image": "Databasenew/tranhv1/vong1cau4.png ",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 4.png ",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -144,7 +144,7 @@
                         "goodnight",
                         "hi"
                   ],
-                  "answer": "goodnight"
+                  "answer": "goodight"
             },
             {
                   "id": 12,
@@ -201,7 +201,7 @@
             {
                   "id": 16,
                   "question": " Choose the missing letter: j_ice ",
-                  "image": "Databasenew/tranhv1/vong1cau16.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 16.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -254,7 +254,7 @@
             {
                   "id": 20,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau20.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 20.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -280,7 +280,7 @@
             {
                   "id": 22,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau22.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 22.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -293,7 +293,7 @@
             {
                   "id": 23,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau23.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 23.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -306,20 +306,20 @@
             {
                   "id": 24,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau24.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 24.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
-                        "tooth",
+                        "teeth",
                         "toe",
                         "touch"
                   ],
-                  "answer": "tooth"
+                  "answer": "teeth"
             },
             {
                   "id": 25,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau25.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 25.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -327,12 +327,12 @@
                         "foot",
                         "finger"
                   ],
-                  "answer": "finger"
+                  "answer": "ear"
             },
             {
                   "id": 26,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau26.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 26.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -345,7 +345,7 @@
             {
                   "id": 27,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau27.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 27.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -358,20 +358,20 @@
             {
                   "id": 28,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau28.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 28.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
                         "schoolbag",
                         "rubber",
-                        "board"
+                        "boar"
                   ],
                   "answer": "board"
             },
             {
                   "id": 29,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau29.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 29.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -384,7 +384,7 @@
             {
                   "id": 30,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau30.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 30.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -397,7 +397,7 @@
             {
                   "id": 31,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau31.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 31.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -410,7 +410,7 @@
             {
                   "id": 32,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau32.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 32.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -423,7 +423,7 @@
             {
                   "id": 33,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau33.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 33.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -436,7 +436,7 @@
             {
                   "id": 34,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau34.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 34.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -449,7 +449,7 @@
             {
                   "id": 35,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau35.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 35.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -462,7 +462,7 @@
             {
                   "id": 36,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau36.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 36.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -475,7 +475,7 @@
             {
                   "id": 37,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau37.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 37.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -488,7 +488,7 @@
             {
                   "id": 38,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau38.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 38.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -515,7 +515,7 @@
             {
                   "id": 40,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau40.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 40.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -528,7 +528,7 @@
             {
                   "id": 41,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau41.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 41.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -541,7 +541,7 @@
             {
                   "id": 42,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau42.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 42.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -554,7 +554,7 @@
             {
                   "id": 43,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau43.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 43.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -581,7 +581,7 @@
             {
                   "id": 45,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau45.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 45.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -589,12 +589,12 @@
                         "painting",
                         "skipping"
                   ],
-                  "answer": "skipping"
+                  "answer": "painting"
             },
             {
                   "id": 46,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau46.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 46.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -607,7 +607,7 @@
             {
                   "id": 47,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau47.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 47.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -620,7 +620,7 @@
             {
                   "id": 48,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau48.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 48.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -633,7 +633,7 @@
             {
                   "id": 49,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau49.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 49.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -641,12 +641,12 @@
                         "chicken",
                         "meat"
                   ],
-                  "answer": "meat"
+                  "answer": " meat "
             },
             {
                   "id": 50,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau50.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 50.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -654,12 +654,12 @@
                         "milk",
                         "juice"
                   ],
-                  "answer": "milk"
+                  "answer": " milk "
             },
             {
                   "id": 51,
                   "question": " Look and choose the correct answer ",
-                  "image": "Databasenew/tranhv1/vong1cau51.png",
+                  "image": "Database/tranh/pictranhv1/vong 1_question 51.png",
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
@@ -667,544 +667,629 @@
                         "chicken",
                         "rice"
                   ],
-                  "answer": "beans"
+                  "answer": " beans "
             },
             {
                   "id": 1,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau1.mp3",
+                  "audio": "Database/nghe/cau1.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau1a.jpeg",
-                        "Databasenew/tranhv2/vong2cau1b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question1a.png",
+                        "Database/tranh/pictranhv2/vong2question1b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau1b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question1b.png "
             },
             {
                   "id": 2,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau2.mp3",
+                  "audio": "Database/nghe/cau2.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau2a.jpeg",
-                        "Databasenew/tranhv2/vong2cau2b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question2a.png",
+                        "Database/tranh/pictranhv2/vong2question2b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau2b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question2b.png "
             },
             {
                   "id": 3,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau3.mp3",
+                  "audio": "Database/nghe/cau3.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau3a.jpeg",
-                        "Databasenew/tranhv2/vong2cau3b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question3a.png",
+                        "Database/tranh/pictranhv2/vong2question3b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau3a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question3a.png "
             },
             {
                   "id": 4,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau4.mp3",
+                  "audio": "Database/nghe/cau4.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau4a.jpeg",
-                        "Databasenew/tranhv2/vong2cau4b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question4a.png",
+                        "Database/tranh/pictranhv2/vong2question4b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau4b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question4b.png "
             },
             {
                   "id": 5,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau5.mp3",
+                  "audio": "Database/nghe/cau5.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau5a.jpeg",
-                        "Databasenew/tranhv2/vong2cau5b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question5a.png",
+                        "Database/tranh/pictranhv2/vong2question5b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau5b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question5b.png "
             },
             {
                   "id": 6,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau6.mp3",
+                  "audio": "Database/nghe/cau6.mp3",
                   "limitListen": true,
                   "options": [
-                        "We play badminton at school",
-                        "I have a blue notebook"
+                        "a. We play badminton at school",
+                        "b. I have a blue notebook"
                   ],
-                  "answer": "I have a blue notebook "
+                  "answer": " b. I have a blue notebook "
             },
             {
                   "id": 7,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau7.mp3",
+                  "audio": "Database/nghe/cau7.mp3",
                   "limitListen": true,
                   "options": [
-                        "This is my new pen",
-                        "There are five pencils"
+                        "a. This is my new pen",
+                        "b. There are five pencils"
                   ],
-                  "answer": "This is my new pen"
+                  "answer": " a. This is my new pen "
             },
             {
                   "id": 8,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau8.mp3",
+                  "audio": "Database/nghe/cau8.mp3",
                   "limitListen": true,
                   "options": [
-                        "They are my books ",
-                        "Let’s go home!"
+                        "a. They are my books ",
+                        "b. Let’s go home!"
                   ],
-                  "answer": "They are my books "
+                  "answer": " a. They are my books "
             },
             {
                   "id": 9,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau9.mp3",
+                  "audio": "Database/nghe/cau9.mp3",
                   "limitListen": true,
                   "options": [
-                        "Stand up, please! ",
-                        "Can you speak louder, Mai? "
+                        "a. Stand up, please! ",
+                        "b. Can you speak louder, Mai? "
                   ],
-                  "answer": "Can you speak louder, Mai? "
+                  "answer": " b. Can you speak louder, Mai? "
             },
             {
                   "id": 10,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau10.mp3",
+                  "audio": "Database/nghe/cau10.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau10a.jpeg",
-                        "Databasenew/tranhv2/vong2cau10b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question10a.png",
+                        "Database/tranh/pictranhv2/vong2question10b.png",
+                        "Database/tranh/pictranhv2/vong2question10c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau10a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question10a.png "
             },
             {
                   "id": 11,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau11.mp3",
+                  "audio": "Database/nghe/cau11.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau11a.jpeg",
-                        "Databasenew/tranhv2/vong2cau11b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question11a.png",
+                        "Database/tranh/pictranhv2/vong2question11b.png",
+                        "Database/tranh/pictranhv2/vong2question11c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau11b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question11c.png "
             },
             {
                   "id": 12,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau12.mp3",
+                  "audio": "Database/nghe/cau12.mp3",
                   "limitListen": true,
                   "options": [
-                       "Databasenew/tranhv2/vong2cau12a.jpeg",
-                       "Databasenew/tranhv2/vong2cau12b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question12a.png",
+                        "Database/tranh/pictranhv2/vong2question12b.png",
+                        "Database/tranh/pictranhv2/vong2question12c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau12a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question12b.png "
             },
             {
                   "id": 13,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau13.mp3",
+                  "audio": "Database/nghe/cau13.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau13a.jpg",
-                        "Databasenew/tranhv2/vong2cau13b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question13a.png",
+                        "Database/tranh/pictranhv2/vong2question13b.png",
+                        "Database/tranh/pictranhv2/vong2question13c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau13b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question13a.png "
             },
             {
                   "id": 14,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau14.mp3",
+                  "audio": "Database/nghe/cau14.mp3",
                   "limitListen": true,
                   "options": [
-                        "Thank you, Peter",
-                        "This is my house"
+                        "a. Thank you, Peter ",
+                        " b. This is my house "
                   ],
-                  "answer": "This is my house"
+                  "answer": " b. This is my house "
             },
             {
                   "id": 15,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau15.mp3",
+                  "audio": "Database/nghe/cau15.mp3",
                   "limitListen": true,
                   "options": [
-                        "Hi. Nice to meet you",
-                        "This is my blue bedroom"
+                        "a. Hi. Nice to meet you ",
+                        " b. This is my blue bedroom "
                   ],
-                  "answer": "Hi. Nice to meet you"
+                  "answer": " a. Hi. Nice to meet you "
             },
             {
                   "id": 16,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau16.mp3",
+                  "audio": "Database/nghe/cau16.mp3",
                   "limitListen": true,
                   "options": [
-                        "I like playing chess with my friends",
-                        "Welcome to our classroom"
+                        "a. I like playing chess with my friends ",
+                        " b. Welcome to our classroom "
                   ],
-                  "answer": "I like playing chess with my friends"
+                  "answer": " a. I like playing chess with my friends "
             },
             {
                   "id": 17,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau17.mp3",
+                  "audio": "Database/nghe/cau17.mp3",
                   "limitListen": true,
                   "options": [
-                        "Can I have my book back, Mai?",
-                        "My school is near here"
+                        "a. Can I have my book back, Mai? ",
+                        " b. My school is near here "
                   ],
-                  "answer": "Can I have my book back, Mai?"
+                  "answer": " a. Can I have my book back, Mai? "
             },
             {
                   "id": 18,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau18.mp3",
+                  "audio": "Database/nghe/cau18.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau18a.jpeg",
-                        "Databasenew/tranhv2/vong2cau18b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question18a.png",
+                        "Database/tranh/pictranhv2/vong2question18b.png",
+                        "Database/tranh/pictranhv2/vong2question18c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau18a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question18a.png "
             },
             {
                   "id": 19,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau19.mp3",
+                  "audio": "Database/nghe/cau19.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau19a.jpeg",
-                        "Databasenew/tranhv2/vong2cau19b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question19a.png",
+                        "Database/tranh/pictranhv2/vong2question19b.png",
+                        "Database/tranh/pictranhv2/vong2question19c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau19b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question19b.png "
             },
             {
                   "id": 20,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau20.mp3",
+                  "audio": "Database/nghe/cau20.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau20a.jpeg",
-                         "Databasenew/tranhv2/vong2cau20b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question20a.png",
+                        "Database/tranh/pictranhv2/vong2question20b.png",
+                        "Database/tranh/pictranhv2/vong2question20c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau20a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question20c.png "
             },
             {
                   "id": 21,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau21.mp3",
+                  "audio": "Database/nghe/cau21.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau21a.jpeg",
-                         "Databasenew/tranhv2/vong2cau21b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question21a.png",
+                        "Database/tranh/pictranhv2/vong2question21b.png",
+                        "Database/tranh/pictranhv2/vong2question21c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau21b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question21b.png "
             },
             {
                   "id": 22,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau22.mp3",
+                  "audio": "Database/nghe/cau22.mp3",
                   "limitListen": true,
                   "options": [
-                        "Touch your hair!",
-                        "It’s an ear"
+                        "a. Touch your hair! ",
+                        " b. It’s an ear "
                   ],
-                  "answer": "Touch your hair!"
+                  "answer": " a. Touch your hair! "
             },
             {
                   "id": 23,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau23.mp3",
+                  "audio": "Database/nghe/cau23.mp3",
                   "limitListen": true,
                   "options": [
-                        "Is this a fox? ",
-                        "May I speak Vietnamese? "
+                        "a. Is this a fox? ",
+                        " b. May I speak Vietnamese? "
                   ],
-                  "answer": "May I speak Vietnamese? "
+                  "answer": " b. May I speak Vietnamese? "
             },
             {
                   "id": 24,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau24.mp3",
+                  "audio": "Database/nghe/cau24.mp3",
                   "limitListen": true,
                   "options": [
-                        "That’s my friend, Lucy",
-                        "It’s very nice of you, Mai "
+                        "a. That’s my friend, Lucy ",
+                        " b. It’s very nice of you, Mai "
                   ],
-                  "answer": "It’s very nice of you, Mai "
+                  "answer": " b. It’s very nice of you, Mai "
             },
             {
                   "id": 25,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau25.mp3",
+                  "audio": "Database/nghe/cau25.mp3",
                   "limitListen": true,
                   "options": [
-                        "Do you like painting, Peter? ",
-                        "Is it your new ruler, Nam? "
+                        "a. Do you like painting, Peter? ",
+                        " b. Is it your new ruler, Nam? "
                   ],
-                  "answer": "Do you like painting, Peter? "
+                  "answer": " a. Do you like painting, Peter? "
             },
             {
                   "id": 26,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau26.mp3",
+                  "audio": "Database/nghe/cau26.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau26a.jpeg",
-                         "Databasenew/tranhv2/vong2cau26b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question26a.png",
+                        "Database/tranh/pictranhv2/vong2question26b.png",
+                        "Database/tranh/pictranhv2/vong2question26c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau26b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question26a.png "
             },
             {
                   "id": 27,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau27.mp3",
+                  "audio": "Database/nghe/cau27.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau27a.jpeg",
-                         "Databasenew/tranhv2/vong2cau27b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question27a.png",
+                        "Database/tranh/pictranhv2/vong2question27b.png",
+                        "Database/tranh/pictranhv2/vong2question27c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau27b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question27c.png "
             },
             {
                   "id": 28,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau28.mp3",
+                  "audio": "Database/nghe/cau28.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau28a.jpeg",
-                         "Databasenew/tranhv2/vong2cau28b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question28a.png",
+                        "Database/tranh/pictranhv2/vong2question28b.png",
+                        "Database/tranh/pictranhv2/vong2question28c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau28a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question28c.png "
             },
             {
                   "id": 29,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau29.mp3",
+                  "audio": "Database/nghe/cau29.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau29a.jpeg",
-                         "Databasenew/tranhv2/vong2cau29b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question29a.png",
+                        "Database/tranh/pictranhv2/vong2question29b.png",
+                        "Database/tranh/pictranhv2/vong2question29c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau29b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question29c.png "
             },
             {
                   "id": 30,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau30.mp3",
+                  "audio": "Database/nghe/cau30.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau30a.jpeg",
-                         "Databasenew/tranhv2/vong2cau30b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question30a.png",
+                        "Database/tranh/pictranhv2/vong2question30b.png",
+                        "Database/tranh/pictranhv2/vong2question30c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau30a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question30a.png "
             },
             {
                   "id": 31,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau31.mp3",
+                  "audio": "Database/nghe/cau31.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau31a.jpeg",
-                         "Databasenew/tranhv2/vong2cau31b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question31a.png",
+                        "Database/tranh/pictranhv2/vong2question31b.png",
+                        "Database/tranh/pictranhv2/vong2question31c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau31b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question31a.png "
             },
             {
                   "id": 32,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau32.mp3",
+                  "audio": "Database/nghe/cau32.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau32a.jpeg",
-                         "Databasenew/tranhv2/vong2cau32b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question32a.png",
+                        "Database/tranh/pictranhv2/vong2question32b.png",
+                        "Database/tranh/pictranhv2/vong2question32c..png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau32a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question32a.png "
             },
             {
                   "id": 33,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau32.mp3",
+                  "audio": "Database/cau33.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau33a.jpeg",
-                         "Databasenew/tranhv2/vong2cau33b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question33a.png",
+                        "Database/tranh/pictranhv2/vong2question33b..png",
+                        "Database/tranh/pictranhv2/vong2question33c..png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau33b.jpeg"
+                  "answer": "Database/pictranh/pictranhv2/vong2question33c.png "
+            },
+            {
+                  "id": 34,
+                  "question": "Sắp xếp thứ tự các bức tranh (Điền số 1, 2, 3, 4):",
+                  "questionType": "arrange_images",
+                  "audio": "Database/nghe/cau34.mp3",
+                  "items": [
+                        {
+                              "id": "A",
+                              "image": "Database/tranh/pictranhv2/vong2question34a.png"
+                        },
+                        {
+                              "id": "B",
+                              "image": "Database/tranh/pictranhv2/vong2question34b.png"
+                        },
+                        {
+                              "id": "C",
+                              "image": "Database/tranh/pictranhv2/vong2question34c.png"
+                        },
+                        {
+                              "id": "D",
+                              "image": "Database/tranh/pictranhv2/vong2question34d.png"
+                        }
+                  ],
+                  "answer": "A-4, B-2, C-1, D-3"
             },
             {
                   "id": 35,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau32.mp3",
+                  "audio": "Database/nghe/cau35.mp3",
                   "limitListen": true,
                   "options": [
-                        "Let’s go to the playground",
-                        "Let’s go to the classroom "
+                        "a. Let’s go to the playground ",
+                        " b. Let’s go to the classroom "
                   ],
-                  "answer": "Let’s go to the classroom?"
+                  "answer": " b. Let’s go to the classroom? "
             },
             {
                   "id": 36,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau36.mp3",
+                  "audio": "Database/nghe/cau36.mp3",
                   "limitListen": true,
                   "options": [
-                        "Do you have a pencil?_No, I don’t ",
-                        "Do you have a ruler?_No, I don’t "
+                        "a. Do you have a pencil? - No, I don’t ",
+                        " b. Do you have a ruler? - No, I don’t "
                   ],
-                  "answer": "Do you have a ruler?_No, I don’t "
+                  "answer": " b. Do you have a ruler? - No, I don’t "
             },
             {
                   "id": 37,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau37.mp3",
+                  "audio": "Database/nghe/cau37.mp3",
                   "limitListen": true,
                   "options": [
-                        "This is Lucy_Hi, Lucy ",
-                        "This is Mary_Hi, Mary "
+                        "a. This is Lucy. – Hi, Lucy ",
+                        " b. This is Mary – Hi, Mary "
                   ],
-                  "answer": "This is Lucy_Hi, Lucy "
+                  "answer": " a. This is Lucy. – Hi, Lucy "
             },
             {
                   "id": 38,
                   "question": "Listen and choose the correct answer:",
                   "questionType": "multiple_choice",
-                  "audio": "Databasenew/nghev2/nghecau38.mp3",
+                  "audio": "Database/nghe/cau38.mp3",
                   "limitListen": true,
                   "options": [
-                        "What’s your hobby?_It’s drawing ",
-                        "What’s your hobby?_It’s running "
+                        "a. What’s your hobby? - It’s drawing ",
+                        " b. What’s your hobby? - It’s running "
                   ],
-                  "answer": "What’s your hobby?_It’s drawing "
+                  "answer": " a. What’s your hobby? - It’s drawing "
             },
-           
+            {
+                  "id": 39,
+                  "question": "Listen and choose the correct picture:",
+                  "questionType": "multiple_choice",
+                  "optionType": "image",
+                  "audio": "Database/nghe/cau39.mp3",
+                  "limitListen": true,
+                  "options": [
+                        "Database/tranh/pictranhv2/vong2question39a.png",
+                        "Database/tranh/pictranhv2/vong2question39b.png",
+                        "Database/tranh/pictranhv2/vong2question39c.png"
+                  ],
+                  "answer": "Database/tranh/pictranhv2/vong2question39a.png "
+            },
             {
                   "id": 40,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau40.mp3",
+                  "audio": "Database/nghe/cau40.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau40a.jpeg",
-                         "Databasenew/tranhv2/vong2cau40b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question40a.png",
+                        "Database/tranh/pictranhv2/vong2question40b.png",
+                        "Database/tranh/pictranhv2/vong2question40c.png"
                   ],
-
-                  "answer": "Databasenew/tranhv2/vong2cau40b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question40c.png "
             },
             {
                   "id": 41,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau41.mp3",
+                  "audio": "Database/nghe/cau41.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau41a.jpeg",
-                         "Databasenew/tranhv2/vong2cau41b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question41a.png",
+                        "Database/tranh/pictranhv2/vong2question41b.png",
+                        "Database/tranh/pictranhv2/vong2question41c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau41a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question41a.png "
             },
             {
                   "id": 42,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau42.mp3",
+                  "audio": "Database/nghe/cau42.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau42a.jpeg",
-                         "Databasenew/tranhv2/vong2cau42b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question42a.png",
+                        "Database/tranh/pictranhv2/vong2question42b.png",
+                        "Database/tranh/pictranhv2/vong2question42c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau42a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question41b.png "
+            },
+            {
+                  "id": 43,
+                  "question": "Sắp xếp thứ tự các bức tranh (Điền số 0, 1, 2, 3, 4):",
+                  "questionType": "arrange_images",
+                  "audio": "Database/nghe/cau43.mp3",
+                  "items": [
+                        {
+                              "id": "A",
+                              "image": "Database/tranh/pictranhv2/vong2question43a.png"
+                        },
+                        {
+                              "id": "B",
+                              "image": "Database/tranh/pictranhv2/vong2question43b.png"
+                        },
+                        {
+                              "id": "C",
+                              "image": "Database/tranh/pictranhv2/vong2question43c.png"
+                        },
+                        {
+                              "id": "D",
+                              "image": "Database/tranh/pictranhv2/vong2question43d.png"
+                        },
+                        {
+                              "id": "D",
+                              "image": "Database/tranh/pictranhv2/vong2question43e.png"
+                        }
+                  ],
+                  "answer": "A-3, B-1, C-0, D-4, E-2"
             },
             {
                   "id": 44,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau44.mp3",
-                  "sentence": " May I ________?_No, you can’t",
+                  "audio": "Database/nghe/cau44.mp3",
+                  "sentence": " May I ________? – No, you can’t",
                   "answer": "sit down"
             },
             {
                   "id": 45,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau45.mp3",
-                  "sentence": "Do you have a book?_No, I don’t. I have a _____",
+                  "audio": "Database/nghe/cau45.mp3",
+                  "sentence": " Do you have a book? – No, I don’t. I have a ______ ",
                   "answer": "notebook"
             },
             {
                   "id": 46,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau46.mp3",
-                  "sentence": "What’s your hobby?_I like _______ ",
+                  "audio": "Database/nghe/cau46.mp3",
+                  "sentence": " What’s your hobby? – I like _______ ",
                   "answer": "singing"
             },
             {
                   "id": 47,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau47.mp3",
-                  "sentence": " What colour is it?_It’s ________ ",
+                  "audio": "Database/nghe/cau47.mp3",
+                  "sentence": " What colour is it? – It’s ________ ",
                   "answer": "yellow"
             },
             {
@@ -1212,238 +1297,242 @@
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau48.mp3",
+                  "audio": "Database/nghe/cau48.mp3",
                   "limitListen": true,
                   "options": [
-                         "Databasenew/tranhv2/vong2cau48a.jpeg",
-                         "Databasenew/tranhv2/vong2cau48b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question48a.png",
+                        "Database/tranh/pictranhv2/vong2question48b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau48a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question48b.png "
             },
             {
                   "id": 49,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau49.mp3",
+                  "audio": "Database/nghe/cau49.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau49a.jpeg",
-                        "Databasenew/tranhv2/vong2cau49b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question49a.png",
+                        "Database/tranh/pictranhv2/vong2question49b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau49a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question49a.png "
             },
             {
                   "id": 50,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau50.mp3",
+                  "audio": "Database/nghe/cau50.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau50a.jpeg",
-                        "Databasenew/tranhv2/vong2cau50b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question50a.png",
+                        "Database/tranh/pictranhv2/vong2question50b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau50b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question50b.png "
             },
             {
                   "id": 51,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau51.mp3",
+                  "audio": "Database/nghe/cau51.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau51a.jpeg",
-                        "Databasenew/tranhv2/vong2cau51b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question51a.png",
+                        "Database/tranh/pictranhv2/vong2question51b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau51b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question51b.png "
             },
             {
                   "id": 52,
-                  "question": "Listen and write Yes or No:",
+                  "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "image": "Databasenew/tranhv2/vong2cau52.jpeg",
-                  "audio": "Databasenew/nghev2/nghecau52.mp3",
+                  "image": "Database/tranh/pictranhv2/vong2question52.png ",
+                  "audio": "Database/nghe/cau52.mp3",
                   "sentence": "",
-                  "answer": "Yes"
+                  "answer": "Y"
             },
             {
                   "id": 53,
-                  "question": "Listen and write Yes or No:",
+                  "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "image": "Databasenew/tranhv2/vong2cau53.jpeg",
-                  "audio": "Databasenew/nghev2/nghecau53.mp3",
+                  "image": "Database/tranh/pictranhv2/vong2question53.png ",
+                  "audio": "Database/nghe/cau53.mp3",
                   "sentence": "",
-                  "answer": "Yes"
+                  "answer": "N"
             },
             {
                   "id": 54,
-                  "question": "Listen and write Yes or No:",
+                  "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "image": "Databasenew/tranhv2/vong2cau54.jpeg",
-                  "audio": "Databasenew/nghev2/nghecau54.mp3",
+                  "image": "Database/tranh/pictranhv2/vong2question54.png ",
+                  "audio": "Database/nghe/cau54.mp3",
                   "sentence": "",
-                  "answer": "Yes"
+                  "answer": "Y"
             },
             {
                   "id": 55,
-                  "question": "Listen and write Yes or No:",
+                  "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "image": "Databasenew/tranhv2/vong2cau55.jpeg",
-                  "audio": "Databasenew/nghev2/nghecau55.mp3",
+                  "image": "Database/tranh/pictranhv2/vong2question55.png ",
+                  "audio": "Database/nghe/cau55.mp3",
                   "sentence": "",
-                  "answer": "No"
+                  "answer": "N"
             },
             {
                   "id": 56,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau56.mp3",
+                  "audio": "Database/nghe/cau56.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau56a.jpeg",
-                        "Databasenew/tranhv2/vong2cau56b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question56a.png",
+                        "Database/tranh/pictranhv2/vong2question56b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau56b.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question56b.png "
             },
             {
                   "id": 57,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau57.mp3",
+                  "audio": "Database/nghe/cau57.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau57a.jpeg",
-                        "Databasenew/tranhv2/vong2cau57b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question57a.png",
+                        "Database/tranh/pictranhv2/vong2question57b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau57a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question57b.png "
             },
             {
                   "id": 58,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau57.mp3",
+                  "audio": "Database/nghe/cau58.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau58a.jpeg",
-                        "Databasenew/tranhv2/vong2cau58b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question58a.png",
+                        "Database/tranh/pictranhv2/vong2question58b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau58a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question58b.png "
             },
             {
                   "id": 59,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau59.mp3",
+                  "audio": "Database/nghe/cau59.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau59a.jpeg",
-                        "Databasenew/tranhv2/vong2cau59b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question59a.png",
+                        "Database/tranh/pictranhv2/vong2question59b.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau59a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question59a.png "
             },
             {
                   "id": 60,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau60.mp3",
+                  "audio": "Database/nghe/cau60.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau60a.jpeg",
-                        "Databasenew/tranhv2/vong2cau60b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question60a.png",
+                        "Database/tranh/pictranhv2/vong2question60b.png",
+                        "Database/tranh/pictranhv2/vong2question60c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau60a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question60b.png "
             },
             {
                   "id": 61,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau61.mp3",
+                  "audio": "Database/nghe/cau61.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau61a.jpeg",
-                        "Databasenew/tranhv2/vong2cau61b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question61a.png",
+                        "Database/tranh/pictranhv2/vong2question61b.png",
+                        "Database/tranh/pictranhv2/vong2question61c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau61a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question61a.png "
             },
             {
                   "id": 62,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau62.mp3",
+                  "audio": "Database/nghe/cau52.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau62a.jpeg",
-                        "Databasenew/tranhv2/vong2cau62b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question62a.png",
+                        "Database/tranh/pictranhv2/vong2question62b.png",
+                        "Database/tranh/pictranhv2/vong2question62c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau62a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question62b.png "
             },
             {
                   "id": 63,
                   "question": "Listen and choose the correct picture:",
                   "questionType": "multiple_choice",
                   "optionType": "image",
-                  "audio": "Databasenew/nghev2/nghecau63.mp3",
+                  "audio": "Database/nghe/cau63.mp3",
                   "limitListen": true,
                   "options": [
-                        "Databasenew/tranhv2/vong2cau63a.jpeg",
-                        "Databasenew/tranhv2/vong2cau63b.jpeg"
+                        "Database/tranh/pictranhv2/vong2question63a.png",
+                        "Database/tranh/pictranhv2/vong2question63b.png",
+                        "Database/tranh/pictranhv2/vong2question63c.png"
                   ],
-                  "answer": "Databasenew/tranhv2/vong2cau63a.jpeg"
+                  "answer": "Database/tranh/pictranhv2/vong2question63c.png "
             },
             {
                   "id": 64,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau64.mp3",
-                  "sentence": "What would you like to drink?_I’d like some ___ ",
+                  "audio": "Database/nghe/cau64.mp3",
+                  "sentence": " What would you like to drink? - I’d like some _____ ",
                   "answer": "milk"
             },
             {
                   "id": 65,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau65.mp3",
-                  "sentence": "What would you like to eat?_I’d like some _____ ",
+                  "audio": "Database/nghe/cau65.mp3",
+                  "sentence": " What would you like to eat? - I’d like some _____ ",
                   "answer": "chicken"
             },
             {
                   "id": 66,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau66.mp3",
-                  "sentence": "There are two ______ under the table ",
+                  "audio": "Database/nghe/cau66.mp3",
+                  "sentence": " There are two ______ under the table ",
                   "answer": "pencils"
             },
             {
                   "id": 67,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau67.mp3",
-                  "sentence": " How old are you?_I’m _____ ",
+                  "audio": "Database/nghe/cau67.mp3",
+                  "sentence": " How old are you? – I’m _____ ",
                   "answer": "eleven"
             },
             {
                   "id": 68,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau68.mp3",
-                  "sentence": " Who’s this?_This is my ________ ",
+                  "audio": "Database/nghe/cau68.mp3",
+                  "sentence": " Who’s this? - This is my ________ ",
                   "answer": "mother"
             },
             {
                   "id": 69,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau69.mp3",
+                  "audio": "Database/nghe/cau69.mp3",
                   "sentence": " This is my ________ ",
                   "answer": "face"
             },
@@ -1451,13 +1540,13 @@
                   "id": 70,
                   "question": "Listen and complete the sentence:",
                   "questionType": "fill_blank",
-                  "audio": "Databasenew/nghev2/nghecau70.mp3",
-                  "sentence": " What’s your hobby?_It’s _______ ",
+                  "audio": "Database/nghe/cau70.mp3",
+                  "sentence": " What’s your hobby? - It’s _______ ",
                   "answer": "dancing"
             },
             {
                   "id": 1,
-                  "question": "What is the monkey _____?_It is swinging.",
+                  "question": "What is the monkey _____? – It is swinging.",
                   "image": "",
                   "questionType": "multiple_choice",
                   "optionType": "text",
@@ -1471,7 +1560,7 @@
             },
             {
                   "id": 2,
-                  "question": "What is she _____?_She is cycling.",
+                  "question": "What is she  _____? – She is cycling.",
                   "image": "",
                   "questionType": "multiple_choice",
                   "optionType": "text",
@@ -1746,7 +1835,7 @@
                         "walk",
                         "badminton"
                   ],
-                  "answer": "badminton"
+                  "answer": "see"
             },
             {
                   "id": 23,
@@ -1764,7 +1853,7 @@
             },
             {
                   "id": 24,
-                  "question": "Choose the correct answer: What is she doing?_ She is ______ ",
+                  "question": "Choose the correct answer: What is she doing? – She is ______ ",
                   "image": "",
                   "questionType": "multiple_choice",
                   "optionType": "text",
@@ -1783,12 +1872,12 @@
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
-                        "Am",
-                        "Are",
-                        "Does",
-                        "Would"
+                        "am",
+                        "are",
+                        "does",
+                        "would"
                   ],
-                  "answer": "Would"
+                  "answer": "would"
             },
             {
                   "id": 26,
@@ -1908,7 +1997,7 @@
                         "is",
                         "on"
                   ],
-                  "answer": "is"
+                  "answer": "in"
             },
             {
                   "id": 35,
@@ -2315,7 +2404,7 @@
             },
             {
                   "id": 65,
-                  "question": "Choose the correct answer: Would you like some rice?_No, ______.",
+                  "question": "Choose the correct answer: Would you like some rice? – No, ______.",
                   "image": "",
                   "questionType": "multiple_choice",
                   "optionType": "text",
@@ -2600,12 +2689,12 @@
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
-                        "Where",
-                        "What",
-                        "When",
-                        "Why"
+                        "where",
+                        "what",
+                        "when",
+                        "why"
                   ],
-                  "answer": "Where"
+                  "answer": "where"
             },
             {
                   "id": 86,
@@ -2614,10 +2703,10 @@
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
-                        "She",
-                        "He"
+                        "she",
+                        "he"
                   ],
-                  "answer": "He"
+                  "answer": "he"
             },
             {
                   "id": 87,
@@ -2650,10 +2739,10 @@
                   "questionType": "multiple_choice",
                   "optionType": "text",
                   "options": [
-                        "She",
-                        "He"
+                        "she",
+                        "he"
                   ],
-                  "answer": "She"
+                  "answer": "she"
             },
             {
                   "id": 90,
@@ -2677,7 +2766,7 @@
                         "is",
                         "are"
                   ],
-                  "answer": "is"
+                  "answer": "he"
             },
             {
                   "id": 92,
@@ -2758,7 +2847,7 @@
             },
             {
                   "id": 98,
-                  "question": "Read and choose the correct answer: Is there a living room in your house? – No, it _____",
+                  "question": "Read and choose the correct answer: Is there a living room in your housse? – No, it _____",
                   "image": "",
                   "questionType": "multiple_choice",
                   "optionType": "text",
@@ -2802,7 +2891,7 @@
                   "words": [
                         "name",
                         "Hi!",
-                        "My",
+                        "my",
                         "Anna",
                         "is"
                   ],
@@ -2944,8 +3033,8 @@
                   "words": [
                         "thank",
                         "I",
-                        "fine,",
-                        "am",
+                        "fine",
+                        "am,",
                         "you"
                   ],
                   "answer": " I am fine, thank you "
@@ -2957,7 +3046,7 @@
                   "words": [
                         "your",
                         "What",
-                        "name?",
+                        "name",
                         "is"
                   ],
                   "answer": " What is your name? "
@@ -3006,9 +3095,9 @@
                         "This",
                         "my",
                         "is",
-                        "friend,"
+                        "friend"
                   ],
-                  "answer": " This is my friend, Anna "
+                  "answer": " This is my friend Anna "
             },
             {
                   "id": 118,
@@ -3018,7 +3107,7 @@
                         "from?",
                         "Where",
                         "you",
-                        "are"
+                        "are,"
                   ],
                   "answer": " Where are you from? "
             },
@@ -3238,7 +3327,6 @@
                   "words": [
                         "books?",
                         "Do",
-                        "you",
                         "like",
                         "reading"
                   ],
@@ -3292,7 +3380,7 @@
                         "like",
                         "I"
                   ],
-                  "answer": " I like drawing pictures "
+                  "answer": " I alike drawing pictures "
             },
             {
                   "id": 141,
@@ -3920,7 +4008,7 @@
                   "words": [
                         "likes",
                         "She",
-                        "skipping",
+                        "Skipping",
                         "at",
                         "break",
                         "rope",
